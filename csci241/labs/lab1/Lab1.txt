@@ -1,0 +1,5 @@
+text
+This is Lab1 from master.
+This is Lab1 from new_branch2.
+text
+Line2 from new_branch1

@@ -1,0 +1,20 @@
+Q1: The exception that is thrown is "(exception in thread "main" java.lang.NullPointerException)". The lines that the exceptions are thown are in lines 80 and 41.
+
+Q2: The exception that is thrown is "(ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5)". The lines that throw the exceptions are at 70 and 37.
+
+Q3: The exception that is thrown is "(ArithmeticException: / by zero)". The lines that throw the exceptions are at 61 and 32.
+
+Q4: The exception that is thrown is "(NumberFormatException: For input string: "hi")". The lines that throw the exceptions are at 65, 652, 770 at java base and in lines 53 and 28 in ExceptionLab.java.
+
+Q5:The error message I got was that that there is an unreported exception FileNotFoundException; This error is happening on line 89: java.io.PrintStream out = new java.io.PrintStream(outFile);
+
+Q6:The error here was ExceptionLab.buggierSlice(ExceptionLab.java:118) at ExceptionLab.main(ExceptionLab.java:73). I believe there are no uncaught exceptions in for this input of arguments.
+
+There are no uncaught exceptions in for this input of arguments. Since the case block for the slice and buggierSlice call was reached. A NullPointerException error on buggierSlice was never caught or reached when the inputs were running for the original code before step 2 and forwards was implemented.
+
+There are no uncaught exceptions in for this input of arguments. Since the case block for the identity call was reached.
+
+I believe there are no uncaught exceptions in for this input of arguments. Since the case block for the makeArray call was reached. And the FileNotFoundException compile error that was present in the beginning of the lab was no longer an issue and the program was able to compile.
+
+
+Q7: The final block is useful when the programmer is trying to run their code for clean-up and they want to see the statements in the block run, to determine whether or not the code is correct without the exception errors getting in the way and ending the run of the program. The finally block is useful because it allow programmers to run the block and allow it to run and be tested no matter if an exception occur, and is a good tool to use when cleaning up code. 
